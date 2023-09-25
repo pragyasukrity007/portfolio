@@ -4,8 +4,8 @@ import Button from '../components/reusable/Button';
 import Myskills from '../components/MySkills';
 import AboutMe from '../components/AboutMe';
 import Experience from '../components/Experience';
-import StickyFooter from '../components/shared/Footer';
 import Education from '../components/Education';
+import Activities from '../components/Activities';
 
 
 
@@ -17,7 +17,7 @@ const Home = () => {
 			<Myskills />
 			<Experience />
 			<Education />
-			{/* <StickyFooter></StickyFooter> */}
+			<Activities />
 		</div>
 	);
 };
