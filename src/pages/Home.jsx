@@ -6,6 +6,7 @@ import AboutMe from '../components/AboutMe';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
 import Activities from '../components/Activities';
+import Certifications from '../components/Certifications';
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
 			<Experience />
 			<Education />
 			<Activities />
+			<Certifications />
 		</div>
 	);
 };

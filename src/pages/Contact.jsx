@@ -5,7 +5,7 @@ const Contact = () => {
   const contacts = [
     {
       id: 1,
-      name: "Kolkata, India",
+      name: "Chennai, India",
       icon: <FiMapPin />,
     },
     {
