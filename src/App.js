@@ -8,7 +8,7 @@ import UseScrollToTop from "./hooks/useScrollToTop";
 import Footer from "./components/shared/Footer";
 
 
-const Contact = lazy(() => import("./pages/Contact.jsx"));
+const Contact = lazy(() => import("./pages/Contact"));
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {

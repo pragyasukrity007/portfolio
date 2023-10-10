@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import { FiPhone, FiMapPin, FiMail } from "react-icons/fi";
+import {
+  FiPhone,
+  FiMapPin,
+  FiMail,
+  FiLinkedin,
+  FiGithub,
+} from "react-icons/fi";
 
 const Contact = () => {
   const contacts = [
@@ -17,6 +23,16 @@ const Contact = () => {
       id: 3,
       name: "+916380061842",
       icon: <FiPhone />,
+    },
+    {
+      id: 4,
+      name: "https://www.linkedin.com/in/pragya-sukrity",
+      icon: <FiLinkedin />,
+    },
+    {
+      id: 5,
+      name: "https://github.com/pragyasukrity007",
+      icon: <FiGithub />,
     },
   ];
 
@@ -46,6 +62,7 @@ const Contact = () => {
                       <i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">
                         {contact.icon}
                       </i>
+
                       <span className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
                         {contact.name}
                       </span>

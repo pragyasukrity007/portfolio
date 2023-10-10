@@ -2,7 +2,7 @@ export const certificationData = [
   {
     id: 1,
     issueOrganization: "Udemy",
-    course: "Building Responsive Real-World Wensites with HTML and CSS",
+    course: "Building Responsive Real-World Websites with HTML and CSS",
     year: "2023",
   },
   {
