@@ -1,13 +1,3 @@
-# portfolio
+# Welcome to my Portfolio website
 
-To install:
-
-npm install
-
-To start:
-
-npm start
-
-#Technologies used:
-React
-Tailwind css
+My Portfolio website is built with React frontend UI Library.

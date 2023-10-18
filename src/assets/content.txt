@@ -1,0 +1,4 @@
+--> project dirs/ project images
+--> resume.pdf
+--> profile.webp
+--> index.jsx ( all imports & exports in one file)
